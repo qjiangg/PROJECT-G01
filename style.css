@@ -109,6 +109,7 @@ li > a{
     display: grid;
     grid-template-columns: 20% 50% 30%;
     background-color: #fff;
+    margin: 5vh 10vw;
 }
 
 .tickets-container .tickets-day{
