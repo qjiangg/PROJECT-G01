@@ -110,17 +110,128 @@ li > a{
     grid-template-columns: 20% 50% 30%;
     background-color: #fff;
     margin: 5vh 10vw;
+
 }
 
-.tickets-container .tickets-day{
+.tickets-day{
     background-color: #E2499F;
-    margin: 1vw;
+    font-size: xx-large;
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2.5vw 2vw;
 }
 
-.tickets-container .tickets-singers{
-    margin: 1vw;
+.tickets-singers{
+    margin: 2.5vw 2vw;
 }
 
-.tickets-container .tickets-buy-button{
+.tickets-container > .tickets-buy-button{
+    margin: 2.5vw 2vw;
+}
 
+
+/* spotify playlist part */
+.spotify-playlist{
+    margin: 5vh 10vw;
+}
+
+
+/* tickets&passes */
+.main-tickets-passes{
+    background-color: #F8E22C;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-tickets-passes > h2{
+    color: #E2499F;
+    font-size: xx-large;
+    font-weight: bold;
+    padding-top: 5vh;
+}
+
+.main-tickets-passes > span{
+    color: #E2499F;
+    font-size: large;
+    padding-top: 2vh;
+}
+
+.tickets-passes-container{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 5%;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.tickets-passes-sub-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.tickets-passes-sub-container > i{
+    font-size: xx-large;
+    padding-top: 4vh;
+}
+
+.tickets-type{
+    font-size: x-large;
+    font-weight: bold;
+    padding-top: 3vh;
+}
+
+.tickets-price{
+    font-size: xx-large;
+    font-weight: bold;
+    color: #E2499F;
+    padding-top: 2vh;
+}
+
+.tickets-passes-sub-container > .tickets-buy-button{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+
+}
+
+
+
+/* footer */
+footer{
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+footer > span{
+    padding-top: 3vh;
+    font-weight: bold;
+}
+
+footer > .footer-icons{
+    padding-top: 2vh;
+    padding-bottom: 3vh;
+}
+
+.footer-icons i{
+    font-size: x-large;
+    padding: 0 0.5vw;
 }
