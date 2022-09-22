@@ -12,6 +12,11 @@ body{
     background-color: #EFEFEF;
 }
 
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
 /* header */
 header{
     background-color: #E2499F;
