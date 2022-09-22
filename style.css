@@ -1,0 +1,120 @@
+/* initialization */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #EFEFEF;
+}
+
+/* header */
+header{
+    background-color: #E2499F;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+ul{
+    text-align: center;
+    list-style-type: none;
+}
+
+li{
+    display: inline;
+}
+
+li > a{
+    color: #fff;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    padding: 1% 2%;
+}
+
+
+/* main */
+/* info part */
+.main-info{
+    background-image: url(./assets/city_music_fest_pircture.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-info > img{
+    width: 100vw;
+    height: auto;
+}
+
+.main-info > h1{
+    color: #fff;
+    font-size: 7em;
+    margin-bottom: 3vh;
+}
+
+.main-info > span{
+    color: #fff;
+    font-size: 2em;
+
+}
+
+.tickets-buy-button{
+    color: #fff;
+    background-color: #26D6C1;
+    font-size: 18pt;
+    width: 200px;
+    padding: 10px 20px;
+    margin-top: 10vh;
+    border-radius: 35px;
+    text-align: center;
+    border: none;
+}
+
+
+/* lineup part */
+.main-lineup{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-lineup > h2{
+    font-size: xx-large;
+    padding-top: 5vh;
+}
+
+.main-lineup > span{
+    font-size: large;
+    padding-top: 2vh;
+}
+
+.tickets-container{
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    background-color: #fff;
+}
+
+.tickets-container .tickets-day{
+    background-color: #E2499F;
+    margin: 1vw;
+}
+
+.tickets-container .tickets-singers{
+    margin: 1vw;
+}
+
+.tickets-container .tickets-buy-button{
+
+}
